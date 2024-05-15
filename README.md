@@ -69,6 +69,9 @@ console.log(squaredNumbers); // In ra: [1, 4, 9, 16, 25]
 export default App;
 
 ```
+<img width="752" alt="image" src="https://github.com/Experimenters1/Render-text-with-URLs-highlighted-React-native-/assets/64000769/75ca7364-7080-4462-9547-8e6d0863a766"> <br><br>
+
+
 
 
 
