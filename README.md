@@ -57,33 +57,6 @@ import React from 'react';
 
 const App: React.FC = () => {
 
-  const numbers: number[] = [1, 2, 3, 4, 5];
-const squaredNumbers: number[] = numbers.map((num) => num * num);
-
-console.log(squaredNumbers); // In ra: [1, 4, 9, 16, 25]
-
-
-  return null; // Không render bất kỳ thứ gì
-};
-
-export default App;
-```
-
-
-
-
-
-
-
-
-
-
-
-```typescript
-import React from 'react';
-
-const App: React.FC = () => {
-
 const numbers: number[] = [1, 2, 3, 4, 5];
 const squaredNumbers: number[] = numbers.map((num) => num * num);
 
