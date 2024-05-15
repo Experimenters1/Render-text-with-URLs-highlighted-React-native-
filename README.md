@@ -30,8 +30,72 @@ export default App;
 ```
 
 **Kết quả :** <br><br>
-<img width="744" alt="image" src="https://github.com/Experimenters1/Render-text-with-URLs-highlighted-React-native-/assets/64000769/108f05c7-43ba-4f72-8e31-a26211af31e2">
+<img width="744" alt="image" src="https://github.com/Experimenters1/Render-text-with-URLs-highlighted-React-native-/assets/64000769/108f05c7-43ba-4f72-8e31-a26211af31e2"> <br><br>
 
+### TypeScript Map
+In **TypeScript, .map()** is a method of arrays used to create a new **array** by calling a **callback** function for each element of the original **array** and returning the result of the **callback** function for each element. <br><br>
+Trong **TypeScript**, **.map()** là một phương thức của mảng **(array)** được sử dụng để tạo ra một mảng mới bằng cách gọi một hàm **callback** cho mỗi phần tử của mảng gốc và trả về kết quả của hàm **callback** cho mỗi phần tử. <br><br>
+
+Cú pháp của phương thức .map() như sau: <br><br>
+
+```typescript
+array.map(callback(currentValue, index, array), thisArg?)
+
+```
+
++ ) **callback:** Hàm được gọi cho mỗi phần tử của mảng, nhận ba tham số:
++ ) **currentValue:** Giá trị của phần tử hiện tại được xử lý.
++ ) **array:** Mảng mà phần tử đang được xử lý.
++ ) **thisArg** (tùy chọn): Giá trị được sử dụng làm this khi gọi hàm **callback.**
+
+Phương thức **.map()** trả về một mảng mới với các giá trị được trả về từ hàm **callback** cho mỗi phần tử tương ứng trong mảng gốc.
+
+Ví dụ:
+
+```typescript
+import React from 'react';
+
+const App: React.FC = () => {
+
+  const numbers: number[] = [1, 2, 3, 4, 5];
+const squaredNumbers: number[] = numbers.map((num) => num * num);
+
+console.log(squaredNumbers); // In ra: [1, 4, 9, 16, 25]
+
+
+  return null; // Không render bất kỳ thứ gì
+};
+
+export default App;
+```
+
+
+
+
+
+
+
+
+
+
+
+```typescript
+import React from 'react';
+
+const App: React.FC = () => {
+
+const numbers: number[] = [1, 2, 3, 4, 5];
+const squaredNumbers: number[] = numbers.map((num) => num * num);
+
+console.log(squaredNumbers); // In ra: [1, 4, 9, 16, 25]
+
+
+  return null; // Không render bất kỳ thứ gì
+};
+
+export default App;
+
+```
 
 
 
